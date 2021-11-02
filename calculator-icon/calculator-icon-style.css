@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+.center{
+    font-family:  'Lora', serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: -200px;
+    margin-left: -300px;
+    border-radius: 40px;
+    box-shadow: 2px 6px 18px 0 rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+div.plus{
+    background-color: #E26310;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    width: 98px;
+    height: 98px;
+    float: left;
+}
+div.minus{
+    background-color: #E26310;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    width: 98px;
+    height: 98px;
+    float: right;
+
+}
+div.times{
+    background-color:#E26310;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    width: 98px;
+    height: 98px;
+    float: left;
+}
+div.equals{
+    background-color: grey;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    color: black;
+    text-align: center;
+    font-size: 80px;
+    width: 98px;
+    height: 98px;
+    float: right;
+}
+
